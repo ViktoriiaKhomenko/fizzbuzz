@@ -1,2 +1,2 @@
 # fizzbuzz
-Samle project for Nordea course of SDA
+Sample project for Nordea course of SDA
