@@ -8,8 +8,8 @@ def limerick():
               'Wszystkie go uwierały,',
               'więc nosił futerały',
               'od skrzypiec zamiast butów.']
-    for line in lim_list:
-        print(line)
+      for line in lim_list:
+          print(line)
 
 
 def fizzbuzz():
@@ -25,7 +25,8 @@ def fizzbuzz():
 
 if __name__ == '__main__':
     while True:
-        fizzbuzz()
+        name = input('Give me your name: ')
+        twofer(name)
         shall_continue = input('Print again?')
         if shall_continue.lower() != 'y':
             break
