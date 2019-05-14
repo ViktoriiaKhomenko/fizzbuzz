@@ -6,7 +6,7 @@ def fizzbuzz():
     for i in range(1, 101):
         if not i % 3:
             print('fizz')
-        elif not i % 5 :
+        elif not i % 5:
             print('buzz')
 
         else:
@@ -14,4 +14,8 @@ def fizzbuzz():
 
 
 if __name__ == '__main__':
-    fizzbuzz()
+    while True:
+        fizzbuzz()
+        shall_continue = input('Print again?')
+        if shall_continue != 'y':
+            break
