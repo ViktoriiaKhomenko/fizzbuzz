@@ -3,13 +3,11 @@ def twofer(who='you'):
 
 
 def limerick():
-  lim_list = ['Był skrzypek rodem z Prabutów,',
+   lim_list = ['Był skrzypek rodem z Prabutów,',
               'miał nogi za duże do butów.',
               'Wszystkie go uwierały,',
               'więc nosił futerały',
               'od skrzypiec zamiast butów.']
-      for line in lim_list:
-          print(line)
 
 
 def fizzbuzz():
